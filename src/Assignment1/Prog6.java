@@ -22,18 +22,11 @@ public class Prog6 {
             {
                 largestNumber = input[i];
             }
-
-        }
-        for(int i=0;i< input.length;i++)
-        {
             if(input[i] > secondLargestNumber && input[i] < largestNumber)
             {
                 secondLargestNumber = input[i];
             }
-
         }
-
-
         System.out.println("The second largest number is "+ secondLargestNumber);
     }
 }
