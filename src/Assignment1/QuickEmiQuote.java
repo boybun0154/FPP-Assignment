@@ -34,10 +34,10 @@ public class QuickEmiQuote {
         //cast to int
         int emiWithoutCents = (int)emi;
         //rounded emi to the nearest int
-        int roundedemi = Math.round(emiWithoutCents);
+        int roundedEmi = (int)Math.round(emi);
 
         System.out.println("The emi amoutn without cents is " + emiWithoutCents+".");
-        System.out.println("The rounded emi to the nearest int is " + emiWithoutCents+".");
+        System.out.println("The rounded emi to the nearest int is " + roundedEmi+".");
 
     }
 }
