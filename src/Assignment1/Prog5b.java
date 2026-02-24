@@ -1,5 +1,10 @@
 package Assignment1;
 
+
+/**
+ * Prog5b
+ * This program prints the first N terms of the series– 1/2 - 2/4 + 3/8 – 4/16 + 5/32 - …..
+ */
 public class Prog5b {
     void main()
     {
